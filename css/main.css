@@ -1,0 +1,254 @@
+.header {
+    height: 158px;
+    background-color: #FFFAEF;
+    text-align: center;
+}
+
+.brand-format {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.navbar-custom {
+    background-color: #F4CFB2 !important;
+    border: 1px solid rgba(11, 11, 11, 0.19);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+}
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+.nav-item-format {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 137.68%;
+}
+.jumbotron {
+    background-image: url('../img/banner.png') !important;
+    background-size: cover;
+    height: 537px;
+    left: 0px;
+}
+.jumbotron a {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    /* or 41px */
+    
+    float: right;
+    color: #F4CFB2;
+    background: #2A2A2A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 39px;
+    width: 249px;
+    height: 54px;
+}
+.jumbotron-header {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 137.68%;
+    /* or 50px */
+    
+    text-align: right;
+    color: #FFFFFF;
+}
+.jumbotron p {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    /* or 41px */
+    
+    text-align: right;
+    color: #FFFFFF;
+}
+.jumbo-text-format {
+    margin-top: 100px;
+}
+.planediv {
+    text-align: center;
+}
+.planediv h3 {
+    margin-top: 40px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 137.68%;
+    /* identical to box height, or 50px */
+    
+    letter-spacing: 0.2em;
+    color: #2A2A2A;
+}
+.planediv p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 137.68%;
+    /* identical to box height, or 21px */
+    
+    color: #2A2A2A;
+}
+.card {
+    margin: 0 auto;
+    /* Added */
+    
+    margin-top: 40px;
+    float: none;
+    /* Added */
+    
+    margin-bottom: 10px;
+    /* Added */
+    
+    background: #F4CFB2;
+    border: 1px solid rgba(11, 11, 11, 0.19);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.card-title {
+    text-align: center;
+    Font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 137.68%;
+    /* identical to box height, or 44px */
+    
+    color: #2A2A2A;
+}
+.card-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 137.68%;
+    /* or 25px */
+    
+    text-align: center;
+    color: #2A2A2A;
+}
+.banner-section h3 {
+    margin-top: 50px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 137.68%;
+    text-align: center;
+    /* identical to box height, or 50px */
+    
+    letter-spacing: 0.2em;
+    color: #2A2A2A;
+}
+.banner-section p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 137.68%;
+    text-align: center;
+    /* identical to box height, or 21px */
+    
+    color: #2A2A2A;
+}
+.divider {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1px;
+}
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48, 49, 51), transparent);
+}
+.div-dot:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -9px;
+    left: calc(50% - 9px);
+    width: 18px;
+    height: 18px;
+    background-color: #F4CFB2;
+    border: 1px solid rgb(48, 49, 51);
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
+}
+.footer-distributed {
+    background-color: #F4CFB2;
+    color: #2A2A2A
+}
+.footer-links {
+    font-size: 14px;
+    font-family: Open Sans;
+    color: #2A2A2A !important;
+}
+.footer-center p {
+    display: inline-block;
+}
+@media only screen and (max-width: 600px) {
+    jumbo-text-format {
+        text-align: center !important;
+    }
+    
+    .jumbotron p {
+        text-align: center;
+    }
+    
+    .jumbotron-header {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .jumbotron a {
+        text-align: center;
+        /* or 41px */
+        font-size: 32px;
+    }
+    
+    .left-div {
+        display: none;
+    }
+    
+    .banner-section h3 {
+        margin-top: 50px;
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 137.68%;
+        text-align: center;
+        /* identical to box height, or 50px */
+        letter-spacing: 0.2em;
+        color: #2A2A2A;
+        margin-top: 20px;
+    }
+    
+    .footer-distributed {
+        text-align: center;
+    }
+}
