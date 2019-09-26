@@ -5,11 +5,11 @@
 }
 
 .brand-format {
-    font-family: Open Sans;
+    font-family: Roboto Condensed;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 18px;
     /* identical to box height */
     letter-spacing: 0.05em;
     color: #000000;
@@ -29,10 +29,10 @@
     color: #ffffff;
 }
 .nav-item-format {
-    font-family: Open Sans;
+    font-family: Roboto Condensed;
+    font-size: 14px;
     font-style: normal;
     font-weight: normal;
-    font-size: 19px;
     line-height: 137.68%;
 }
 .jumbotron {
@@ -198,17 +198,26 @@
     border-radius: 50%;
     box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
 }
-.footer-distributed {
+.footer-basic-centered {
     background-color: #F4CFB2;
-    color: #2A2A2A
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-company-motto {
+    font-family: Roboto Condensed;
+    font-size: 25px;
+    color: #2A2A2A;
 }
 .footer-links {
-    font-size: 14px;
-    font-family: Open Sans;
-    color: #2A2A2A !important;
+    font-family: Roboto Condensed;
+    font-size: 18px;
 }
-.footer-center p {
-    display: inline-block;
+.footer-links a {
+    color: #2A2A2A;
+}
+.footer-company-name {
+    font-family: Roboto Condensed;
 }
 @media only screen and (max-width: 600px) {
     jumbo-text-format {
@@ -248,7 +257,7 @@
         margin-top: 20px;
     }
     
-    .footer-distributed {
+    .footer-basic-centered {
         text-align: center;
     }
 }
